@@ -11,7 +11,7 @@ e **cancelar** horários quando o cliente pedir.
 | Camada | Tecnologia |
 |---|---|
 | Frontend | React + TypeScript + Vite + MUI, React Router, TanStack Query, React Hook Form + Zod |
-| Qualidade (front) | ESLint + Prettier, TypeScript `strict` |
+| Qualidade (front) | ESLint, TypeScript `strict` |
 | Backend | Spring Boot 3, Java 21, Web, Data JPA, Validation, Security |
 | Banco | PostgreSQL + Flyway |
 | Infra local | Docker Compose |
@@ -93,7 +93,7 @@ admin_user     (id, email, password_hash)
 ### Fase 0 — Fundação (~2 dias)
 - [ ] Criar `backend/` (Spring Initializr) e `frontend/` (Vite + React + TS)
 - [ ] `docker-compose.yml` com PostgreSQL
-- [ ] Configurar **ESLint + Prettier** no frontend (`npm run lint` limpo)
+- [ ] Configurar **ESLint** no frontend (`npm run lint` limpo)
 - [ ] Instalar MUI e criar o tema base
 - [ ] Primeiro commit organizado
 
