@@ -19,9 +19,9 @@ export default defineConfig([
       globals: globals.browser,
     },
     rules: {
-      semi: ['error', 'always'],
-      quotes: ['error', 'single', { avoidEscape: true }],
-      indent: ['error', 2],
+      '@stylistic/semi': 'error',
+      '@stylistic/quotes': ['error', 'single', { avoidEscape: true }],
+      '@stylistic/indent': ['error', 2]
     },
   },
 ]);
