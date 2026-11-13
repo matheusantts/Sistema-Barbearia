@@ -90,7 +90,7 @@ Claude atua como mentor.
 - **ESLint é obrigatório**: o código só é considerado pronto se `npm run lint`
   passar sem erros nem warnings.
 - Configurar: `typescript-eslint`, `eslint-plugin-react-hooks`,
-  `eslint-plugin-react-refresh`, `eslint-config-prettier`.
+  `eslint-plugin-react-refresh`.
 - Config no formato **flat** (`eslint.config.js`): `rules` fica dentro de um
   objeto de configuração, nunca solto no array. Regras de estilo adotadas:
   ponto e vírgula obrigatório (`semi`), aspas simples (`quotes`) e indentação
@@ -99,7 +99,7 @@ Claude atua como mentor.
 - Componentes funcionais, um por arquivo, nome em `PascalCase`.
 - Estilo via tema e prop `sx` do MUI; sem CSS solto sem necessidade.
 - Dados do servidor com TanStack Query; formulários com React Hook Form + Zod.
-- Scripts esperados: `dev`, `build`, `lint`, `lint:fix`, `format`, `test`.
+- Scripts esperados: `dev`, `build`, `lint`, `lint:fix`, `test`.
 
 ### Backend (Spring Boot)
 
