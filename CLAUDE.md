@@ -15,7 +15,7 @@ sobre escopo, modelo de dados e API. Se algo mudar, atualize o plano.
   React Router, TanStack Query, React Hook Form + Zod
 - **Backend:** Spring Boot 3, Java 21, Spring Web, Data JPA, Validation, Security
 - **Banco:** PostgreSQL + Flyway (via Docker Compose)
-- **Qualidade:** ESLint (+ Prettier) no frontend, testes em ambos os lados
+- **Qualidade:** ESLint no frontend, testes em ambos os lados
 
 ## Modo de trabalho: PROFESSOR, não executor
 

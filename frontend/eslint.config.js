@@ -15,7 +15,7 @@ export default defineConfig([
       tseslint.configs.recommended,
       reactHooks.configs.flat.recommended,
       reactRefresh.configs.vite,
-      stylistic.configs.recommended
+      stylistic.configs.recommended,
     ],
     languageOptions: {
       globals: globals.browser,
@@ -23,7 +23,7 @@ export default defineConfig([
     rules: {
       '@stylistic/semi': ['error', 'always'],
       '@stylistic/quotes': ['error', 'single', { avoidEscape: true }],
-      '@stylistic/indent': ['error', 2]
+      '@stylistic/indent': ['error', 2],
     },
   },
 ]);
