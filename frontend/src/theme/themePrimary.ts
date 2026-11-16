@@ -6,14 +6,11 @@ const themePrimary = createTheme({
       main: '#c6d219',
       light: '#f5e942',
       dark: '#939c10',
-      contrastText: '#fff',
+      contrastText: '#000000',
     },
-    secondary: {
-      main: '#dc004e',
-      light: '#ff4081',
-      dark: '#c2185b',
-      contrastText: '#fff',
-    },
+  },
+  typography: {
+    fontFamily: 'Roboto, Arial, sans-serif',
   },
 });
 
