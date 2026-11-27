@@ -122,6 +122,12 @@ Sistema-barbearia/
 └── docker-compose.yml   # Postgres (a criar na Fase 0)
 ```
 
+## Continuidade entre sessões / outras IAs
+
+O papel do mentor, o estado atual, o procedimento de code review e o backlog de
+tickets (BARB-5 em diante) estão em [`TICKETS.md`](./TICKETS.md). Leia-o antes
+de responder qualquer pedido do projeto.
+
 ## Progresso
 
 O acompanhamento das fases está no checklist de [`PLANO.md`](./PLANO.md).
